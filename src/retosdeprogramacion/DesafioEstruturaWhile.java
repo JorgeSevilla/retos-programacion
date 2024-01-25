@@ -13,13 +13,15 @@ public class DesafioEstruturaWhile {
 		Scanner entrada = new Scanner(System.in);
 		
 		int somaNumeros = 0;
+		int maxNumero= 100;
 		
-		while (somaNumeros <= 100) {
+		while (somaNumeros < maxNumero) {
 			System.out.println("Digite um número");
 			int numero = entrada.nextInt();
 			
 			somaNumeros += numero;
 		}
+		
 		
 		System.out.printf("Soma dos números: %d%n", somaNumeros);
 		
